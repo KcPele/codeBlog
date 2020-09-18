@@ -23,9 +23,9 @@ const Header = (props) => {
 
     const toggle = () => setIsOpen(!isOpen);
   return (
-    <div>
+    <div style={{ paddingBottom: "60px"}}>
       <Navbar fixed="top" light expand="sm">
-          <div className="container"> 
+          <div className="container" > 
           <NavbarBrand href="/">Code Blog</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
