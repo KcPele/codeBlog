@@ -1,11 +1,10 @@
 import React from 'react'
 import Layout from '../components/layout'
-import SideBar from '../components/SideBar'
+
 import { graphql, Link } from 'gatsby'
 import SEO from '../components/seo'
 import {
-    Row,
-    Col,
+  
     Card,
     CardBody,
     CardSubtitle,
@@ -18,11 +17,10 @@ import { slugify } from '../util/utilityFunction'
 const  singlePost = ({ data }) => {
     const post = data.markdownRemark.frontmatter
     return (
-       <Layout>
-           <SEO title="post.title"/>
-            <h1>{post.title}</h1>
-            <Row>
-                <Col md="8">
+       <Layout pageTitle={post.title}>
+           <SEO title={post.title}/>
+           
+          
                    <Card>
                        <Img className="card-image-top" fluid={post.image.childImageSharp.fluid}/>
                        <CardBody>
@@ -44,11 +42,7 @@ const  singlePost = ({ data }) => {
                        </CardBody>
                     </Card> 
                     
-                </Col> 
-                <Col md="4">
-                    <SideBar/>
-                </Col>
-            </Row>
+               
        </Layout>
     )
 }

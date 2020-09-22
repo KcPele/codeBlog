@@ -1,7 +1,7 @@
 import React from "react"
 
 const Footer = () => (
-      <div className="side-footer">
+      <div className="site-footer">
           <h4 className="text-center">
               Code Blog
           </h4>
@@ -45,6 +45,8 @@ const Footer = () => (
                       </li>
               </ul>
           </div>
+          <p className="text-center">For Sponshorship, Query, Correction, Critisim, Donation or more Info about the blog Kindly contact me through the <i className="fa fa-whatsapp fa-x2"/> WhatsApp Number 07019736590</p>
+
       </div>
 )
 
