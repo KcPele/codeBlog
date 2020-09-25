@@ -12,7 +12,7 @@ const Footer = () => (
                       <a href="https://www.facebook.com" 
                   target="_blank" rel="noopenner noreferrer"
                   className="facebook">
-                      <i className="fab fa-facebook-f fa-2x"/>
+                      <i className="fab fa-facebook-f fa-2x" aria-hidden="true"/>
                       </a>
                       </li>
                       <li>

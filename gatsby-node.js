@@ -6,6 +6,7 @@
 
 const { slugify } = require('./src/util/utilityFunction')
 const path = require('path')
+const authors = require('./src/util/authors')
 
 
 exports.onCreateNode = ({ node, actions}) => {
@@ -22,7 +23,7 @@ exports.onCreateNode = ({ node, actions}) => {
 
 exports.createPages = ({ actions, graphql }) => {
     const { createPage } = actions
-    const singlePostTemlate = path.resolve('src/templates/single-post.js')
+    const singlePostTemplate = path.resolve('src/templates/single-post.js')
 
     return graphql(`
        {
@@ -46,10 +47,12 @@ exports.createPages = ({ actions, graphql }) => {
         posts.forEach(({ node }) => {
             createPage({
                 path: node.fields.slug,
-                component: singlePostTemlate,
+                component: singlePostTemplate,
                 context: {
                     //passing slug for template to use to get post
-                    slug: node.fields.slug
+                    slug: node.fields.slug,
+                    //find authors imageUrl from authors and pass it to the singlepost template
+                    imageUrl: authors.find(x => x.name === node.frontmatter.author).imageUrl
                 }
             })
         });

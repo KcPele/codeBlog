@@ -15,7 +15,7 @@ import Footer from "./Footer"
 import { Row, Col } from 'reactstrap'
 import SideBar from './SideBar'
 
-const Layout = ({ children, pageTitle }) => {
+const Layout = ({ authorImageFluid, children, pageTitle, postAuthor }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -28,10 +28,7 @@ const Layout = ({ children, pageTitle }) => {
 
   return (
     <>
-     <link rel="stylesheet" 
-     href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
-     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" 
-     crossOrigin="anonymous"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossOrigin="anonymous"></link>
        
       <Header siteTitle={data.site.siteMetadata.title} />
       <div className="container" id="content">
@@ -40,7 +37,7 @@ const Layout = ({ children, pageTitle }) => {
           <Col md="8">
           <main>{children}</main>
           </Col>
-          <Col md="4"> <SideBar/></Col>
+          <Col md="4"> <SideBar author={postAuthor} authorFluid={authorImageFluid}/></Col>
         </Row>
         <Footer/>
       </div>
