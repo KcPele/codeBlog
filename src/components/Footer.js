@@ -12,35 +12,35 @@ const Footer = () => (
                       <a href="https://www.facebook.com" 
                   target="_blank" rel="noopenner noreferrer"
                   className="facebook">
-                      <i className="fab fa-facebook-f fa-2x" aria-hidden="true"/>
+                      <i className="fa fa-facebook-f fa-2x" aria-hidden="true"/>
                       </a>
                       </li>
                       <li>
-                      <a href="https://www.twitter.com" 
+                      <a href="https://www.twitter.com/PeleKc" 
                   target="_blank" rel="noopenner noreferrer"
                   className="twitter">
-                      <i className="fab fa-twitter fa-2x"/>
+                      <i className="fa fa-twitter fa-2x"/>
                       </a>
                       </li>
                       <li>
                       <a href="https://www.instagram.com" 
                   target="_blank" rel="noopenner noreferrer"
                   className="instagram">
-                      <i className="fab fa-instagram fa-2x"/>
+                      <i className="fa fa-instagram fa-2x"/>
                       </a>
                       </li>
                       <li>
                       <a href="https://www.google.com" 
                   target="_blank" rel="noopenner noreferrer"
                   className="google">
-                      <i className="fab fa-google fa-2x"/>
+                      <i className="fa fa-google fa-2x"/>
                       </a>
                       </li>
                       <li>
                       <a href="https://www.github.com" 
                   target="_blank" rel="noopenner noreferrer"
                   className="linkedin">
-                      <i className="fab fa-github fa-2x"/>
+                      <i className="fa fa-github fa-2x"/>
                       </a>
                       </li>
               </ul>

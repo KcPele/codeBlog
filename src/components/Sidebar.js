@@ -23,34 +23,34 @@ const Sidebar = ({ author, authorFluid}) => (
                         {author.bio}
                     </CardText>
                     <div className="author-social-links text-center">
-                        <ui>
+                        <ul>
                             <li><a href={author.facebook} 
                             target="_blank" 
                             rel="noopener noreferrer" 
                             className="facebook">
-                                <i className="fab fa-facebook-f fa-lg"></i></a></li>
+                                <i className="fa fa-facebook-f fa-lg"></i></a></li>
                                 <li><a href={author.twitter} 
                             target="_blank" 
                             rel="noopener noreferrer" 
                             className="twitter">
-                                <i className="fab fa-twitter fa-lg"></i></a></li>
+                                <i className="fa fa-twitter fa-lg"></i></a></li>
                                 <li><a href={author.instagram} 
                             target="_blank" 
                             rel="noopener noreferrer" 
                             className="instagram">
-                                <i className="fab fa-instagram fa-lg"></i></a></li>
+                                <i className="fa fa-instagram fa-lg"></i></a></li>
                                 <li><a href={author.google} 
                             target="_blank" 
                             rel="noopener noreferrer" 
                             className="google">
-                                <i className="fab fa-google fa-lg"></i></a></li>
+                                <i className="fa fa-google fa-lg"></i></a></li>
                                 <li><a href={author.github} 
                             target="_blank" 
                             rel="noopener noreferrer" 
                             className="linkedin">
-                                <i className="fab fa-github-f fa-lg"></i></a></li>
+                                <i className="fa fa-github fa-lg"></i></a></li>
                         
-                        </ui>
+                        </ul>
                     </div>
                 </CardBody>
             </Card>
