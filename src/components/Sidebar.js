@@ -87,6 +87,18 @@ const Sidebar = ({ author, authorFluid}) => (
       </Card>   
       <Card>
           <CardBody>
+          <CardTitle className="text-center text-uppercase">
+             Advertisement
+          </CardTitle>
+          <img src="http://via.placeholder.com/320x200" 
+          alt="Advert"
+          style={{ width: "100%"}}/>
+
+          </CardBody>
+         
+      </Card>   
+      <Card>
+          <CardBody>
               <CardTitle className="text-center text-uppercase mb-3">
                   Resent Posts
               </CardTitle>
@@ -94,13 +106,13 @@ const Sidebar = ({ author, authorFluid}) => (
                   <div>
                       {data.allMarkdownRemark.edges.map(({node}) => (
                           <Card key={node.id}>
-                              <Link to={node.fields.slug} >
+                              <Link to={`/${node.fields.slug}`} >
                                   <Img className="card-image-top" 
                                   fluid={node.frontmatter.image.childImageSharp.fluid}/>
                               </Link>
                               <CardBody>
                                   <CardTitle>
-                                      <Link to={node.fields.slug}>
+                                      <Link to={`/${node.fields.slug}`}>
                                           {node.frontmatter.title}
                                       </Link>
                                   </CardTitle>
