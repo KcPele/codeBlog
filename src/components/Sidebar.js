@@ -119,7 +119,7 @@ const sidebarQuery = graphql`
      query sidebarQuery {
          allMarkdownRemark(
              sort: { fields: [frontmatter___date], order: DESC }
-             limit: 3
+             limit: 2
        ) {
              edges{
                  node{

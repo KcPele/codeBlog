@@ -17,7 +17,7 @@ exports.onCreateNode = ({ node, actions}) => {
         createNodeField({
             node,
             name: 'slug',
-            value: slugFromTitle
+            value: slugFromTitle,
         })
     }
 }
@@ -26,8 +26,9 @@ exports.createPages = ({ actions, graphql }) => {
     const { createPage } = actions
    const templates = {
         singlePost: path.resolve('src/templates/single-post.js'),
-        tagsPage: path.resolve('src/templates/tags-pages.js')
-
+        tagsPage: path.resolve('src/templates/tags-pages.js'),
+        tagPosts: path.resolve('src/templates/tag-posts.js')
+        
     }
 
 
@@ -80,12 +81,22 @@ exports.createPages = ({ actions, graphql }) => {
             tags = _.uniq(tags)
      //create tags page
             createPage({
-                path: '/tags',
+                path: `/tags`,
                 component: templates.tagsPage,
                 context: {
                     tags,
                     tagPostCounts
-                }
+                },
+            })
+            //Create tags posts pages
+            tags.forEach(tag => {
+                createPage({
+                    path: `/tag/${slugify(tag)}`,
+                    component: templates.tagPosts,
+                    context: {
+                        tag
+                    }
+                })
             })
     })
 }
