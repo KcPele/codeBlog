@@ -11,6 +11,7 @@ import {
 } from "reactstrap"
 import { graphql, StaticQuery, Link } from  "gatsby"
 import Img from "gatsby-image"
+import Video from '../components/Video'
 
 const Sidebar = ({ author, authorFluid}) => (
     <div>
@@ -78,21 +79,23 @@ const Sidebar = ({ author, authorFluid}) => (
           <CardTitle className="text-center text-uppercase">
              Advertisement
           </CardTitle>
-          <img src="http://via.placeholder.com/320x200" 
-          alt="Advert"
-          style={{ width: "100%"}}/>
+          <Video  
+               videoSrcURL="https://www.youtube/embed/"
+               videoTitle="Official Commedies Skit Video on YouTube"
+         />
 
           </CardBody>
          
       </Card>   
       <Card>
-          <CardBody>
+          <CardBody style={{ margin: '0 auto'}}>
           <CardTitle className="text-center text-uppercase">
              Advertisement
           </CardTitle>
-          <img src="http://via.placeholder.com/320x200" 
-          alt="Advert"
-          style={{ width: "100%"}}/>
+         <Video  
+               videoSrcURL="https://www.youtube/embed/"
+               videoTitle="Official Commedies Skit Video on YouTube"
+         />
 
           </CardBody>
          
