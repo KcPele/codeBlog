@@ -75,7 +75,7 @@ const Sidebar = ({ author, authorFluid}) => (
           </CardBody>
       </Card>
       <Card>
-          <CardBody>
+          <CardBody style={{ margin: '0 auto'}}>
           <CardTitle className="text-center text-uppercase">
              Advertisement
           </CardTitle>

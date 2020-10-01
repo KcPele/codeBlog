@@ -2,7 +2,7 @@
 
 title: 'First Post - Introduction'
 date: 2020-8-01 07:09:00
-author: 'John Doe'
+author: 'Kc Pele'
 image: ../../images/javascript.jpg
 tags: 
 - Code
