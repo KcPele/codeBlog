@@ -73,7 +73,7 @@ const TeamPage = () => (
                 <Button color="primary" 
                 className="text-uppercase"
                 href={`/author/${slugify(authors[1].name)}`}>View posts</Button>
-                <TeamLinks author={authors}/>
+                <TeamLinks author={authors[1]}/>
             </CardBody>
           </Card>
         </div>

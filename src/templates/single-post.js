@@ -9,7 +9,7 @@ import {
     CardBody,
     CardSubtitle,
     Badge
-} from 'reactStrap'
+} from 'reactstrap'
 import Img from 'gatsby-image'
 import { slugify } from '../util/utilityFunction'
 import authors from '../util/authors'
