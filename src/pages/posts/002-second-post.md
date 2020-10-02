@@ -2,8 +2,8 @@
 
 title: 'Second Post - HTML'
 date: 2020-8-02 07:09:00
-author: 'Joy Pele'
-image: ../../images/javascript.jpg
+author: 'Faith Joy'
+image: ../../images/html.jpg
 tags: 
 - Code
 - Design

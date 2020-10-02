@@ -9,6 +9,7 @@ import authors from '../util/authors'
 import JohnImage from '../images/john.jpg'
 import JaneImage from '../images/jane.jpg'
 import { slugify } from '../util/utilityFunction'
+import TeamLinks from '../components/TeamLinks'
 
 
 const TeamPage = () => (
@@ -26,6 +27,36 @@ const TeamPage = () => (
                 <Button color="primary" 
                 className="text-uppercase"
                 href={`/author/${slugify(authors[0].name)}`}>View posts</Button>
+             <div className="author-social-links text-center">
+        <ul>
+            <li><a href={authors[0].facebook} 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="facebook">
+                <i className="fa fa-facebook-f fa-lg"></i></a></li>
+                <li><a href={authors[0].twitter} 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="twitter">
+                <i className="fa fa-twitter fa-lg"></i></a></li>
+                <li><a href={authors[0].instagram} 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="instagram">
+                <i className="fa fa-instagram fa-lg"></i></a></li>
+                <li><a href={authors[0].google} 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="google">
+                <i className="fa fa-google fa-lg"></i></a></li>
+                <li><a href={authors[0].github} 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="linkedin">
+                <i className="fa fa-github fa-lg"></i></a></li>
+        
+        </ul>
+    </div>
             </CardBody>
           </Card>
         </div>
@@ -42,6 +73,7 @@ const TeamPage = () => (
                 <Button color="primary" 
                 className="text-uppercase"
                 href={`/author/${slugify(authors[1].name)}`}>View posts</Button>
+                <TeamLinks author={authors}/>
             </CardBody>
           </Card>
         </div>

@@ -10,7 +10,7 @@ const authors = [
         github: 'http://www.github.com',
     },
     {
-        name: 'Joy Pele',
+        name: 'Faith Joy',
         imageUrl: 'jane.jpg',
         bio: 'Joy has being a front end developer for ten years, She is a brilliant artist',
        facebook: 'http://www.facebook.com',

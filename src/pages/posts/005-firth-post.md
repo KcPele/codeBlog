@@ -2,7 +2,7 @@
 
 title: 'Firth-Post Introduction To Node JS'
 date: 2020-8-05 07:09:00
-author: 'Kc Pele'
+author: 'Faith Joy'
 image: ../../images/javascript.jpg
 tags: 
 - Javascript
