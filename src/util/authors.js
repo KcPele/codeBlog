@@ -2,7 +2,7 @@ const authors = [
     {
         name: 'Kc Pele',
         imageUrl: 'john.jpg',
-        bio: 'Kc has being a front end developer for ten years, he is a brilliant artist',
+        bio: 'Kc is a backend developer, He specialises in security and his favourite stack is the MERN stack',
         facebook: 'http://www.facebook.com',
         twitter: 'http://www.twitter.com',
         instagram: 'http://www.instagram.com',
@@ -12,8 +12,8 @@ const authors = [
     {
         name: 'Joy Pele',
         imageUrl: 'jane.jpg',
-        bio: 'Joy is a backend developer, she specialises in security and her favourite stack is the MERN stack',
-        facebook: 'http://www.facebook.com',
+        bio: 'Joy has being a front end developer for ten years, She is a brilliant artist',
+       facebook: 'http://www.facebook.com',
         twitter: 'http://www.twitter.com',
         instagram: 'http://www.instagram.com',
         google: 'http://www.google.com',

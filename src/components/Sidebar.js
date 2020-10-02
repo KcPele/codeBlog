@@ -80,7 +80,7 @@ const Sidebar = ({ author, authorFluid}) => (
              Advertisement
           </CardTitle>
           <Video  
-               videoSrcURL="https://www.youtube/embed/"
+               videoSrcURL="https://www.youtube/watch?v=OSS-mGnTEmY"
                videoTitle="Official Commedies Skit Video on YouTube"
          />
 
@@ -90,11 +90,11 @@ const Sidebar = ({ author, authorFluid}) => (
       <Card>
           <CardBody style={{ margin: '0 auto'}}>
           <CardTitle className="text-center text-uppercase">
-             Advertisement
+             Take A Break
           </CardTitle>
          <Video  
-               videoSrcURL="https://www.youtube/embed/"
-               videoTitle="Official Commedies Skit Video on YouTube"
+               videoSrcURL="https://www.youtube/watch?v=pKnUyKx6lYg"
+               videoTitle="Your number 1 Official Commedies Skit Video on YouTube"
          />
 
           </CardBody>
