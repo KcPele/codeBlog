@@ -59,7 +59,7 @@ const  singlePost = ({ data, pageContext}) => {
                             <li>
                                 <a href={'https://www.facebook.com/sharer/sharer.php?u=' + 
                                 baseUrl + pageContext.slug } 
-                                className="facebook" target="_blank" rel="noopenner norefferer">
+                                className="facebook" target="_blank" rel="noopenner noreferrer">
                            <i className="fa fa-facebook-f fa-2x" ></i>
                            </a>
                            </li>
@@ -69,7 +69,7 @@ const  singlePost = ({ data, pageContext}) => {
                             post.title + '&via' + 'twitterHandle'} 
                                 className="twitter" 
                                 target="_blank" 
-                                rel="noopenner norefferer">
+                                rel="noopenner noreferrer">
                            <i className="fa fa-twitter fa-2x" ></i>
                            </a>
                            </li>
@@ -78,7 +78,7 @@ const  singlePost = ({ data, pageContext}) => {
                                 baseUrl + pageContext.slug} 
                                 className="google" 
                                 target="_blank" 
-                                rel="noopenner norefferer">
+                                rel="noopenner noreferrer">
                            <i className="fa fa-google fa-2x" ></i>
                            </a>
                            </li>
@@ -87,7 +87,7 @@ const  singlePost = ({ data, pageContext}) => {
                                 baseUrl + pageContext.slug} 
                                 className="linkedin" 
                                 target="_blank" 
-                                rel="noopenner norefferer">
+                                rel="noopenner noreferrer">
                            <i className="fa fa-github fa-2x" ></i>
                            </a>
                            </li>

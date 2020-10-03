@@ -47,8 +47,8 @@ module.exports = {
           ratio: 1.77, 
           height: 400, 
           related: false,
-           noIframeBorder: true, //Optional: Disable insertion of <style> border: 0
-         }
+           noIframeBorder: true, 
+          }
       },
    
     // this (optional) plugin enables Progressive Web App + Offline functionality

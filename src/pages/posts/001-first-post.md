@@ -8,6 +8,6 @@ tags:
 - Code
 ---
 
-Welcome to Code Blog, I hope you enjoyed our content, Welcome to Code Blog, I hope you enjoyed our content
+Welcome to Code Blog, I hope you will enjoy our content,<strong> Welcome to Code Blog, I hope you enjoy our content </strong>
 
 

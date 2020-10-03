@@ -10,8 +10,6 @@ tags:
 ---
 
 Welcome to Node js the main egg with the source
-Welcome to Node js the main egg with the source
-Welcome to Node js the main egg with the source
-Welcome to Node js the main egg with the source
-Welcome to Node js the main egg with the source
+Node js is a great backend you should know. it is easy simple and very
+flexible
 
