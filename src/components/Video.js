@@ -7,7 +7,6 @@ const Video = ({ videoSrcURL, videoTitle}) =>  {
             title={videoTitle}
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             frameBorder="0"
-        
             webkittallowfullscreen="true"
             allowFullScrean/>
         </div>

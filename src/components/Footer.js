@@ -45,7 +45,7 @@ const Footer = () => (
                       </li>
               </ul>
           </div>
-          <p className="text-center">For Sponshorship, Query, Correction, Critisim, Donation or more Info about the blog Kindly contact me through the <i className="fa fa-whatsapp fa-x2"/> WhatsApp Number 07019736590</p>
+          <p className="text-center">For Sponshorship, Query, Correction, Critisim, Donation or More Info about the blog Kindly contact me through the <i className="fa fa-whatsapp fa-x2"/> WhatsApp Number 07019736590</p>
 
       </div>
 )

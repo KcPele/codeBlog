@@ -3,7 +3,7 @@
 title: 'Six Post Styles Sheet'
 date: 2020-8-06 07:09:00
 author: 'Kc Pele'
-image: ../../images/javascript.jpg
+image: ../../images/css.jpg
 tags: 
 - Bootstrap
 - Semantic ui

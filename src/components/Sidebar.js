@@ -80,7 +80,7 @@ const Sidebar = ({ author, authorFluid}) => (
              Advertisement
           </CardTitle>
           <Video  
-               videoSrcURL="https://www.youtube/watch?v=OSS-mGnTEmY"
+               videoSrcURL="https://www.youtube/embed/OSS-mGnTEmY"
                videoTitle="Official Commedies Skit Video on YouTube"
          />
 
@@ -93,7 +93,7 @@ const Sidebar = ({ author, authorFluid}) => (
              Take A Break
           </CardTitle>
          <Video  
-               videoSrcURL="https://www.youtube/watch?v=pKnUyKx6lYg"
+               videoSrcURL="https://www.youtube/embed/pKnUyKx6lYg"
                videoTitle="Your number 1 Official Commedies Skit Video on YouTube"
          />
 

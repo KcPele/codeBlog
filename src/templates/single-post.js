@@ -18,7 +18,7 @@ import { DiscussionEmbed } from 'disqus-react'
 const  singlePost = ({ data, pageContext}) => {
     const post = data.markdownRemark.frontmatter
     const author = authors.find(x => x.name === post.author) 
-    const baseUrl = 'https://gatsbytutorial.co.uk/'
+    const baseUrl = 'https://inspiring-noyce-160698.netlify.app'
     const disqusShortname = 'codeblog-8'
     const disqusConfig = {
         identifier: data.markdownRemark.id,

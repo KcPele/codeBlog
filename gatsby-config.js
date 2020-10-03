@@ -38,6 +38,18 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-plugin-catch-links',
     'gatsby-transformer-remark',
+    "gatsby-remark-embed-video",
+   
+      {
+        resolve: "gatsby-remark-embed-video",
+        options: {
+          width: 800,
+          ratio: 1.77, 
+          height: 400, 
+          related: false,
+           noIframeBorder: true, //Optional: Disable insertion of <style> border: 0
+         }
+      },
    
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
